@@ -1,0 +1,26 @@
+@media (min-width: 769px) {
+    .pyramid-img {
+        width: 30%;
+        height: 35%;
+        display: block;
+        margin: 44px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .pyramid-img {
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin: 44px auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .pyramid-img {
+        width: 173px;
+        height: 115px;
+        display: block;
+        margin: 0 auto;
+    }
+}

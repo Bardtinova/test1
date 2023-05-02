@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="height">
+      <div class="header-nav">
+        <header >
+            <nav>
+                <div class="container">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="menu_link">главная</a></li>
+                        <li class="menu-item"><a href="#" class="menu_link">информация о тесте</a></li>
+                        <li class="menu-item"><a href="#" class="menu_link menu_link_active">пройти тест</a></li>
+                    </ul>
+                </div>
+                <div class="nav-container">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img class="nav__img" src="./img/rain_bk3.png" alt="logo">
+                    <div class="nav__inf" id="head">Готово!</div>
+                </div>
+            </nav>
+        </header>
+        <div class="invatation">
+            <h3 class="ivatation__h3">Пройдите точный и быстрый</h3>
+            <h1 class="invatation__h1">тест на<br> определение<br> IQ</h1>
+            <img class="invatation__img" src="./icons/rain_bk3.svg" alt="logo">
+            <button class="button__active button__text button-invitation">пройти тест</button> 
+            <div class="invatation__descr">
+                <span>И получите рекомендации по развитию своего интеллекта </span>
+                <span> и улучшению финансового благосостояния и личной жизни</span>
+            </div>
+            <a href="#">
+                <img class="invitation__img-more" src="./icons/Group 3.svg" alt="more">            
+                <div class="invatation__link">Подробнее</div>
+            </a>    
+        </div>
+        <div class="goals">
+            <img class="goals-on"src="./icons/bracketsOn.svg" alt="brackets">
+            <div class="goals__description">Профессиональный IQ-тест позволяет не только определить коэффициент вашего интеллекта, 
+                но и выработать список рекомендаций для повышения этого показателя. </div>
+            <img class="goals-off" src="./icons/bracketsOff.svg" alt="brackets">
+        </div>
+        <div class="advice">
+            <div class="advice__description">Также по результатам теста <b>вы получите</b> подробные <b>советы</b> по определению наиболее перспективной <b>для вашего типа интеллекта сферы деятельности</b>, которая принесет вам скорейший финансовый результат.
+            </div>
+            <img class="advice__img" src="./background/brain-doing.svg" alt="brain thought">
+            <button class="button__active button__text">пройти тест</button>
+        </div>
+        <footer class="footer">
+            <div class="footer__info">Прохождение теста займет у вас не более <b>12 минут</b>, а его результаты вы сможете <b>использовать всю жизнь.</b></div>
+            <div class="footer__advace">Профессиональная интерпретация и детально <b>проработанные рекомендации</b> позволят вам качественно <b>изменить все аспекты своей жизни:</b> от финансового до любовного.</div>
+            <button class="button__active button__text footer_button footer_text">пройти тест</button>
+            <img class="footer__logo" src="./icons/logo.svg" alt="data">
+        </footer>
+      </div>
+    </section>
+    
+    <section class="section-test section-test__gender scroll">
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+                <p class="header">Ваш пол:</p>
+                <div class="input">
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Мужчина</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact" checked>
+                      <span class="text text__radio">Женщина</span>
+                    </label>
+                  </div>
+                </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+      </section>
+    <section class="section-test section-test_age scroll">
+      
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+              <p class="header">Укажите ваш возраст:</p>
+              <div class="input">
+                <div class="input__text">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact" checked>
+                    <span class="text text__radio">До 18</span>
+                  </label>
+                </div>
+                <div class="input__text">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact">
+                    <span class="text text__radio">От 18 до 28</span>
+                  </label>
+                </div>
+                <div class="input__text">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact">
+                    <span class="text text__radio">От 29 до 35</span>
+                  </label>
+                </div>
+                <div class="input__text">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact">
+                    <span class="text text__radio">От 36</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+     
+    </section>
+    <section class="section-test section-test_extra-one scroll">
+    
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+                <p class="header">Выберите лишнее:</p>
+                <div class="input">
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Дом</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact" checked>
+                      <span class="text text__radio">Шалаш</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Бунгало</span>
+                    </label>
+                  </div>
+                  <div class="input__text active">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio active">Скамейка</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Хижина</span>
+                    </label>
+                  </div>
+                </div>
+            </div>
+           <button class="button active" type="submit">далее</button>
+        </form>
+     
+    </section>
+    <section class="section-test section-test_numbers scroll">
+      
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+                <p class="header">Продолжите числовой ряд:</p>
+                <p class="header">18  20  24  32</p>  
+                <div class="input">
+                  <div class="input__text">
+                      <label class="label">
+                        <input type="radio" class="radio" name="contact" checked>
+                        <span class="text text__radio">62</span>
+                      </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">48</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                      <label class="label">
+                        <input type="radio" class="radio" name="contact">
+                        <span class="text text__radio">74</span>
+                      </label>
+                  </div>
+                  <div class="input__text">
+                      <label class="label">
+                          <input type="radio" class="radio" name="contact">
+                          <span class="text text__radio">57</span>
+                      </label>
+                  </div>
+                  <div class="input__text">
+                      <label class="label">
+                        <input type="radio" class="radio" name="contact">
+                        <span class="text text__radio">60</span>
+                      </label>
+                  </div>
+                  <div class="input__text">
+                      <label class="label">
+                        <input type="radio" class="radio" name="contact">
+                        <span class="text text__radio">77</span>
+                      </label>
+                  </div>
+                </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+     
+    </section>
+    <section class="section-test section-test_color-one scroll">
+      
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+              <div class="content">
+                <p class="header">Выберите цвет, который сейчас наиболее Вам приятен:</p>
+                <div>
+                  <div class="color">
+                  <label class="color-label gray">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label blue">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label green">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label red">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label yellow">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label braun">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label black">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label violet">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label azure">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+              </div>
+                </div>
+                
+              </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+      
+    </section>
+    <section class="section-test section-test_color-two scroll">
+      
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+              <p class="header">Отдохните пару секунд, еще раз Выберите цвет, который сейчас наиболее Вам приятен:</p>
+              <div>
+                <div class="color">
+                  <label class="color-label gray">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label azure">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label braun">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label green">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label black">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label red">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label violet">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label yellow">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+                  <label class="color-label blue">
+                    <input type="radio" class="radio " name="contact">
+                    <span class="fake"></span>
+                  </label>
+              </div>
+              </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+    
+    </section>
+    <section class="section-test section-test_city scroll">
+    
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+              <p class="header">Какой из городов лишний?</p>
+              <div class="input">
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact" checked>
+                      <span class="text text__radio">Вашингтон</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Лондон</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Париж</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Нью-Йорк</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Москва</span>
+                    </label>
+                  </div>  
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">Оттава</span>
+                    </label>
+                  </div>
+              </div> 
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+   
+    </section>
+    <section class="section-test section-test_figure scroll">
+     
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+              <p class="header">Выберите правильную фигуру из четырёх пронумерованных.</p>
+              <img class="figure-img" src="./img/figure.png" alt="figure selevtion">
+              <div class="number">
+                  <label class="number__label">
+                    <input type="radio" class="radio" name="contact">
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">1</span>
+                  </label>
+                  <label class="number__label">
+                    <input type="radio" class="radio" name="contact" checked>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">2</span>
+                  </label>
+                  <label class="number__label">
+                    <input type="radio" class="radio" name="contact">
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">3</span>
+                  </label>
+                  <label class="number__label">
+                    <input type="radio" class="radio" name="contact">
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">4</span>
+                  </label>
+              </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+    
+    </section>
+    <section class="section-test section-test_habits scroll">
+     
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+              <p class="header">Вам привычнее и важнее:</p>
+              <div class="input">
+                <div class="input__text input__text-habits">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact">
+                    <span class="text text__radio">Наслаждаться каждой минутой проведенного времени</span>
+                  </label>
+                </div>
+                <div class="input__text">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact" checked>
+                    <span class="text text__radio">Быть устремленными мыслями в будущее</span>
+                  </label>
+                </div>
+                <div class="input__text">
+                  <label class="label">
+                    <input type="radio" class="radio" name="contact">
+                    <span class="text text__radio">Учитывать в ежедневной практике прошлый опыт</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+    
+    </section>
+    <section class="section-test secton-test_definition scroll">
+      
+        <div class="section-test__gray">
+          <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+                <p class="header">Какое определение, по-Вашему, больше подходит к этому геометрическому изображению: </p>
+                <img class="pyramid-img" src="./img/piramid.png" alt="pyramid image">
+                <div class="input">
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">оно остроконечное</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact">
+                      <span class="text text__radio">оно устойчиво</span>
+                    </label>
+                  </div>
+                  <div class="input__text">
+                    <label class="label">
+                      <input type="radio" class="radio" name="contact" checked>
+                      <span class="text text__radio">оно - находится в состоянии равновесия</span>
+                    </label>
+                  </div>
+                </div>
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+     
+    </section>
+    <section class="section-test section-test_insert scroll">
+    
+        <div class="section-test__gray">
+            <span></span>
+        </div>
+        <form class="section-test__gray-form">
+            <div class="content">
+                <p class="header">Вставьте подходящее число</p>
+                <img class="star-img" src="./img/star1.png" alt="star with numbrs">
+                <div class="number">
+                  <label class="number__label">
+                    <input type="radio" class="radio" id="34" name="contact" checked/>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">34</span>
+                  </label>
+                  <label class="number__label" for="36">
+                    <input type="radio" class="radio" id="36" name="contact"/>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">36</span>
+                  </label>
+                  <label class="number__label" for="53">
+                    <input type="radio" class="radio" id="53" name="contact"/>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">53</span>
+                  </label>
+                  <label class="number__label" for="44">
+                    <input type="radio" class="radio" id="44" name="contact"/>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">44</span>
+                  </label>
+                  <label class="number__label" for="66">
+                    <input type="radio" class="radio" id="66" name="contact"/>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">66</span>
+                  </label>
+                  <label class="number__label" for="42">
+                    <input type="radio" class="radio" id="42" name="contact"/>
+                    <div class="number-fake"></div>
+                    <span  class="number__label-two">42</span>
+                  </label>
+              </div> 
+            </div>
+            <button class="button" type="submit">далее</button>
+        </form>
+    
+    </section>
+    <section class="section-test section-test_processing scroll">
+      
+          <div class="content">
+            <p class="header">Обработка результатов</p>
+            <img class="spiner-img" src="./img/spiner.svg" alt="spiner">
+            <span class="header header__processing">Определение стиля мышления ........................................................................................</span>
+          </div>
+        
+    </section>
+    <section class="result scroll">
+     
+        <h3 class="result_h3"> Ваш результат рассчитан: </h3>
+        <div class="result_descr"><u>Bы относитесь к 3% </u>респондентов, чей уровень интеллекта более чем на 
+            15 пунктов отличается от среднего в большую или меньшую сторону!
+        </div>
+        <div class="result_quicker">
+          Скорее получите свой результат!
+        </div>
+        <div class="result_protect">В целях защиты персональных 
+            данных результат теста, их подробная интерпретация и рекомендации доступны в виде голосового сообщения по звонку с вашего мобильного телефона
+        </div>
+        <div class="result_record">Звоните скорее, запись доступна всего </div>
+        <div class="result_record second"><span>10:00 &nbsp</span>минут</div>
+        <div class="app">
+            <button id="resbtn" class="result__btn">
+                <img src="./icons/call.png" alt="call up">
+                <span>позвонить и прослушать результат </span>
+            </button> 
+        </div>
+        
+    </section>    
+    <script src="./script.js"> </script>
+</body>
+</html>

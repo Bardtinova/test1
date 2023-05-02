@@ -1,0 +1,29 @@
+
+@media (min-width: 769px) {
+    .spiner-img {
+      width: 50%;
+      height: 190px;
+      display: block;
+      margin: 20px auto;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .spiner-img {
+        width: 40%;
+        height: 190px;
+        display: block;
+        margin: 20px auto;
+      }
+}
+
+@media (max-width: 575px) {
+    .spiner-img {
+        width: 82px;
+        height: 82px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+

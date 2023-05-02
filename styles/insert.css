@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    .star-img {
+        width: 30%;
+        height: 35%;
+        display: block;
+        margin: 50px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .star-img {
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin: 50px auto;
+    }
+}  
+
+@media (max-width: 575px) {
+    .star-img {
+        width: 228px;
+        height: 207px;
+        display: block;
+        margin: 0 auto;
+    }
+}
