@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", () => {
     //работа со скроллом
  
 function checkPosition() {
-    const height = document.querySelector('.height').offsetHeight; //высота до футера
+    const height = document.querySelector('.script').offsetHeight; //высота до футера
         const heightFooter = document.querySelector('.footer').offsetHeight; //высота футера
         const scrolled = window.scrollY; // сколько пользователь проскроллил
         const threshold = height - heightFooter/2; //определение порога
